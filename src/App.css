@@ -37,8 +37,8 @@
 .button {
   width: 100%;
   height: 48px;
-  background-color: #cbfe03;
-  color: #22272e;
+  background-color: #7159c1;
+  color: #63f5b8;
   border: 0;
   border-radius: 4px;
   font-size: 22px;
@@ -48,5 +48,39 @@
 }
 
 .button:hover {
-  background-color: #b0e800;
+  background-color: #63f5b8;
+  color: #7159c1;
+}
+
+.result {
+  background-color: #63f5b8;
+  width: 100%;
+  max-width: 420px;
+  padding: 20px 28px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.result:hover {
+  transform: scale(1.1);
+}
+
+.result-title,
+.result span {
+  color: #7159c1;
+  font-weight: bold;
+}
+
+.result-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.result span {
+  margin-bottom: 8px;
+  font-size: 18px;
 }
